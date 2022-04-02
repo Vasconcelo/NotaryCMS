@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Notary.Api.DataAccess.Interfaces;
 using Notary.Api.DataAccess.Models;
 using Notary.Api.DataAccess.Models.DTOs;
+using Notary.CMS.DataAccess.Interfaces;
 using Notary.CMS.DataAccess.Models;
 using Notary.CMS.DataAccess.Models.DTOs;
 
