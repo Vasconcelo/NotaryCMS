@@ -1,12 +1,5 @@
-﻿using Notary.Api.DataAccess.Models;
-using Notary.Api.DataAccess.Models.DTOs;
-using Notary.CMS.DataAccess.Models;
+﻿using Notary.CMS.DataAccess.Models;
 using Notary.CMS.DataAccess.Models.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Notary.CMS.DataAccess.Interfaces
 {

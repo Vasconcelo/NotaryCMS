@@ -1,8 +1,8 @@
-﻿using Notary.Api.DataAccess.Models;
-using Notary.Api.DataAccess.Models.DTOs;
+﻿using Notary.CMS.DataAccess.Models.DTOs;
+using Notary.CMS.DataAccess.Models;
 
 
-namespace Notary.Api.DataAccess.Interfaces
+namespace Notary.CMS.DataAccess.Interfaces
 {
     public interface IComponentRepository
     {

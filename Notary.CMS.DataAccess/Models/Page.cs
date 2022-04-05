@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Notary.CMS.DataAccess.Models
+﻿namespace Notary.CMS.DataAccess.Models
 {
     public partial class Page
     {

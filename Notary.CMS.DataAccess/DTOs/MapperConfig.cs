@@ -1,10 +1,6 @@
 ﻿using AutoMapper;
-using Notary.Api.DataAccess.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Notary.CMS.DataAccess.Models;
+using Notary.CMS.DataAccess.Models.DTOs;
 
 namespace Notary.Api.DataAccess.Models.DTOs
 {
@@ -13,11 +9,11 @@ namespace Notary.Api.DataAccess.Models.DTOs
         public MapperConfig()
         {  
             CreateMap<PageDTO, Page>();          
-            CreateMap<ComponentDTO, Component>();
+            CreateMap<ComponentDTO, Notary.CMS.DataAccess.Models.Component>();
             CreateMap<ApplicationDTO, Application>();
 
             CreateMap<Page, PageSDTO>();
-            CreateMap<Component, ComponentSDTO>();
+            CreateMap<Notary.CMS.DataAccess.Models.Component, ComponentSDTO>();
             CreateMap<Application, ApplicationSDTO>();
             
         }
