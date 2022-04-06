@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Middleware", "Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4452B7A8-BA57-4A6B-ACB4-033089178D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Filters", "Common.Filters\Common.Filters.csproj", "{3752CA44-1E6E-49D4-998B-1281493FE93F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4452B7A8-BA57-4A6B-ACB4-033089178D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4452B7A8-BA57-4A6B-ACB4-033089178D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4452B7A8-BA57-4A6B-ACB4-033089178D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3752CA44-1E6E-49D4-998B-1281493FE93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3752CA44-1E6E-49D4-998B-1281493FE93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3752CA44-1E6E-49D4-998B-1281493FE93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3752CA44-1E6E-49D4-998B-1281493FE93F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

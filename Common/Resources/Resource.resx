@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EncryptedTextRequired" xml:space="preserve">
+    <value>Encrypted text is required.</value>
+  </data>
+  <data name="InputRequired" xml:space="preserve">
+    <value>Input is required.</value>
+  </data>
+  <data name="InputTextRequired" xml:space="preserve">
+    <value>Input text is required.</value>
+  </data>
+  <data name="IVRequired" xml:space="preserve">
+    <value>An initialization vector is required.</value>
+  </data>
+  <data name="EncryptionKeyRequired" xml:space="preserve">
+    <value>An encryption key is required.</value>
+  </data>
+  <data name="InvalidData" xml:space="preserve">
+    <value>Invalid data.</value>
+  </data>
+  <data name="InvalidUsernamePasscode" xml:space="preserve">
+    <value>Invalid username or passcode.</value>
+  </data>
+  <data name="InvalidUsernamePassword" xml:space="preserve">
+    <value>Invalid username/password pair.</value>
+  </data>
+  <data name="PasscodeExpired" xml:space="preserve">
+    <value>The passcode has expired.</value>
+  </data>
+  <data name="PasswordExpired" xml:space="preserve">
+    <value>Password expired.</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>Account locked due to excessive login failures.</value>
+  </data>
+  <data name="AccountLockedByAdmin" xml:space="preserve">
+    <value>Account locked. Please contact your administrator.</value>
+  </data>
+  <data name="AppIdInvalid" xml:space="preserve">
+    <value>The application id is invalid.</value>
+  </data>
+  <data name="OrgIdInvalid" xml:space="preserve">
+    <value>The organization id is invalid.</value>
+  </data>
+  <data name="UserIdInvalid" xml:space="preserve">
+    <value>The user id is invalid.</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access Denied.</value>
+  </data>
+  <data name="AccountInActive" xml:space="preserve">
+    <value>The account is not active.</value>
+  </data>
+  <data name="AccountLocked1" xml:space="preserve">
+    <value>Account locked due to excessive login failures.</value>
+  </data>
+  <data name="AccountLockedByAdmin1" xml:space="preserve">
+    <value>Account locked. Please contact your administrator.</value>
+  </data>
+  <data name="ApiKeyExpired" xml:space="preserve">
+    <value>Api key '{0}' failed to authenticate. Key has expired.</value>
+  </data>
+  <data name="ApiKeyInvalid" xml:space="preserve">
+    <value>Invalid api key.</value>
+  </data>
+  <data name="ApiKeyNotActive" xml:space="preserve">
+    <value>Api key '{0}' failed to authenticate. Key is not active.</value>
+  </data>
+  <data name="ApiKeyNotFound" xml:space="preserve">
+    <value>Api key '{0}' failed to authenticate. Key was not found.</value>
+  </data>
+  <data name="ApiKeyParseFailed" xml:space="preserve">
+    <value>Api key '{0}' failed to authenticate. Failed to parse api key guid.</value>
+  </data>
+  <data name="AppIdInvalid1" xml:space="preserve">
+    <value>The application id is invalid.</value>
+  </data>
+  <data name="AppUserIdNotProvided" xml:space="preserve">
+    <value>The application specific user id was not provided.</value>
+  </data>
+  <data name="ARequired" xml:space="preserve">
+    <value>A '{0}' argument is required.</value>
+  </data>
+  <data name="AuthenticationFailed" xml:space="preserve">
+    <value>Authentication failed.</value>
+  </data>
+  <data name="AuthManagerLoadError" xml:space="preserve">
+    <value>Error loading authentication manager.</value>
+  </data>
+  <data name="BingMapsKeyNotFound" xml:space="preserve">
+    <value>The Bing Maps api key was not found in the configuration file.</value>
+  </data>
+  <data name="BingMapsUrlNotFound" xml:space="preserve">
+    <value>The Bing Maps URL was not found in the configuration file.</value>
+  </data>
+  <data name="CannotReadToken" xml:space="preserve">
+    <value>Cannot read the token.</value>
+  </data>
+  <data name="ClientAppUnverified" xml:space="preserve">
+    <value>The client application cannot be verified.</value>
+  </data>
+  <data name="ConnectionStringNotFoundInConfig" xml:space="preserve">
+    <value>The '{0}' connection string was not found in the configuration file.</value>
+  </data>
+  <data name="ContainerDoesNotExist" xml:space="preserve">
+    <value>The container '{0}' does not exist.</value>
+  </data>
+  <data name="ContentAlreadyExists" xml:space="preserve">
+    <value>Content already exists for '{0}'.</value>
+  </data>
+  <data name="ContentNotFound" xml:space="preserve">
+    <value>Content not found for '{0}'.</value>
+  </data>
+  <data name="DataException" xml:space="preserve">
+    <value>A data exception occurred.</value>
+  </data>
+  <data name="DateInvalid" xml:space="preserve">
+    <value>The date is invalid.</value>
+  </data>
+  <data name="DateMissingOrInvalid" xml:space="preserve">
+    <value>The nna-date header is missing, or the date is invalid.</value>
+  </data>
+  <data name="EncryptedTextRequired1" xml:space="preserve">
+    <value>Encrypted text is required.</value>
+  </data>
+  <data name="EncryptionKeyRequired1" xml:space="preserve">
+    <value>An encryption key is required.</value>
+  </data>
+  <data name="GeoCodeFailedConfidence" xml:space="preserve">
+    <value>Geocoding failed. Confidence was '{0}'.</value>
+  </data>
+  <data name="GeoCodeFailedCoordinatesNotFound" xml:space="preserve">
+    <value>Geocoding failed. The coordinates were not found or not valid.</value>
+  </data>
+  <data name="GeoCodeFailedEntityType" xml:space="preserve">
+    <value>Geocoding failed. The entity type found was not an address.</value>
+  </data>
+  <data name="GeoCodeFailedEntityTypeZip" xml:space="preserve">
+    <value>Geocoding failed. The entity type found was not a postal code.</value>
+  </data>
+  <data name="GeoCodeFailedMatchCode" xml:space="preserve">
+    <value>Geocoding failed. The match code must be 'Good'.</value>
+  </data>
+  <data name="InputRequired1" xml:space="preserve">
+    <value>Input is required.</value>
+  </data>
+  <data name="InputTextRequired1" xml:space="preserve">
+    <value>Input text is required.</value>
+  </data>
+  <data name="InvalidData1" xml:space="preserve">
+    <value>Invalid data.</value>
+  </data>
+  <data name="InvalidPolicyDoc" xml:space="preserve">
+    <value>Invalid policy document.</value>
+  </data>
+  <data name="InvalidPolicyFormat" xml:space="preserve">
+    <value>Invalid Policy format.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Invalid or missing authentication token.</value>
+  </data>
+  <data name="InvalidUsernamePasscode1" xml:space="preserve">
+    <value>Invalid username or passcode.</value>
+  </data>
+  <data name="InvalidUsernamePassword1" xml:space="preserve">
+    <value>Invalid username/password pair.</value>
+  </data>
+  <data name="IVRequired1" xml:space="preserve">
+    <value>An initialization vector is required.</value>
+  </data>
+  <data name="KeySignatureInvalid" xml:space="preserve">
+    <value>Invalid key signature.</value>
+  </data>
+  <data name="OnlyConvertToEnum" xml:space="preserve">
+    <value>Can only convert an instance of enum.</value>
+  </data>
+  <data name="OnlyConvertToString" xml:space="preserve">
+    <value>Can only convert to a string.</value>
+  </data>
+  <data name="OrgIdInvalid1" xml:space="preserve">
+    <value>The organization id is invalid.</value>
+  </data>
+  <data name="PartitionKeyReserved" xml:space="preserve">
+    <value>PartitionKey is reserved.</value>
+  </data>
+  <data name="PasscodeExpired1" xml:space="preserve">
+    <value>The passcode has expired.</value>
+  </data>
+  <data name="PasswordExpired1" xml:space="preserve">
+    <value>Password expired.</value>
+  </data>
+  <data name="RowKeyReserved" xml:space="preserve">
+    <value>RowKey is reserved.</value>
+  </data>
+  <data name="SettingNotFoundInConfig" xml:space="preserve">
+    <value>The '{0}' application setting was not found in the configuration file.</value>
+  </data>
+  <data name="SignatureNotMatch" xml:space="preserve">
+    <value>Signature does not match.</value>
+  </data>
+  <data name="StorageConnectStringNotFound" xml:space="preserve">
+    <value>Storage connection string name not found in the configuration.</value>
+  </data>
+  <data name="TimestampReserved" xml:space="preserve">
+    <value>Timestamp is reserved.</value>
+  </data>
+  <data name="TokenExpired" xml:space="preserve">
+    <value>The token has expired.</value>
+  </data>
+  <data name="TokenIssuedByParticipatingIP" xml:space="preserve">
+    <value>The security token must be issued by a participating identity provider.</value>
+  </data>
+  <data name="UniversalScopeRequired" xml:space="preserve">
+    <value>Universal scope is required.</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>The upload failed.</value>
+  </data>
+  <data name="UserIdInvalid1" xml:space="preserve">
+    <value>The user id is invalid.</value>
+  </data>
+  <data name="WebApiAttributeOnly" xml:space="preserve">
+    <value>The attribute may only decorate methods in a Web Api controller.</value>
+  </data>
+  <data name="DeleteOptionNotAllowed" xml:space="preserve">
+    <value>The attribute {0} is not allowed to be deleted.</value>
+  </data>
+  <data name="UpdateOptionNotAllowed" xml:space="preserve">
+    <value>The attribute is associated to a product and is not allowed to be updated.</value>
+  </data>
+</root>
